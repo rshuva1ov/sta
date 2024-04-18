@@ -1,0 +1,41 @@
+.quotes {
+    padding: 60px 0;
+}
+
+.quotes-header {
+    margin-bottom: 40px;
+}
+
+.quotes-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.quotes-place {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.quotes-author {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.quotes-content__block {
+    display: flex;
+    align-items: center;
+}
+
+.quotes-content__button {
+    margin-left: 30px;
+    background: #2B91CC;
+    color: #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #2B91CC;
+    border-radius: 40px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
