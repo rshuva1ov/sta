@@ -1,0 +1,38 @@
+.hero {
+    color: #ffffff;
+    padding: 120px 0 160px 0;
+    margin-bottom: 120px;
+}
+
+.hero-header {
+    font-size: 36px;
+    font-weight: 700px;
+    margin-bottom: 40px;
+}
+
+.hero__list {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 40px 40px;
+}
+
+.hero-image {
+    background-image: url('../../images/hero-image.jpg');
+    max-width: 100%;
+    min-height: 594px;
+    background-position: center;
+    background-size: contain;
+}
+
+.hero-text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .hero-image {
+        background-image: url('../../images/hero-image@2x.jpg');
+        background-size: contain;
+    }
+}

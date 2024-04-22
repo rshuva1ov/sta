@@ -17,11 +17,19 @@
 .quotes-place {
     font-size: 40px;
     margin-bottom: 20px;
+    color: #555555;
 }
 
 .quotes-author {
     font-size: 16px;
     margin-bottom: 40px;
+    color: #555555;
+}
+
+.quotes-content__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quotes-content__block {

@@ -1,0 +1,25 @@
+.catalog {
+    padding: 40px 0 40px 0;
+}
+
+.catalog-heading {
+    margin-bottom: 40px;
+}
+
+.catalog__list {
+    display: flex;
+}
+
+
+.catalog__list-item {
+    max-width: 269px;
+    width: 100%;
+    min-height: 214px;
+    background: white;
+    border: 1px #ECECEC solid;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}

@@ -8,6 +8,12 @@
 
 h2 {
   font-size: 24px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -23,7 +29,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
-  color: #000;
+  color: #333333;
 }
 
 code {
