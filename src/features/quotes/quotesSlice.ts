@@ -53,13 +53,20 @@ const quotesSlice = createSlice({
         },
     },
     extraReducers(builder) {
+        let caseCounter = 0;
         builder
             .addCase(fetchPosts.pending, (state, action) => {
                 state.status = 'loading';
             })
             .addCase(fetchPosts.fulfilled, (state, action) => {
-                state.status = 'succeeded';
-                state.quotes = state.quotes.concat(action.payload);
+                caseCounter++;
+                if (caseCounter === 1) {
+                    state.status = 'succeeded';
+                    state.quotes = action.payload;
+                } else {
+                    state.status = 'succeeded';
+                    state.quotes = state.quotes.concat(action.payload);
+                }
             })
             .addCase(fetchPosts.rejected, (state, action) => {
                 state.status = 'failed';

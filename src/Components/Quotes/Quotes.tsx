@@ -1,10 +1,10 @@
 import { useSelector } from 'react-redux';
 import { store } from '../../app/store';
 import { fetchPosts, getQuotesError, getQuotesStatus, selectAllQuotes } from '../../features/quotes/quotesSlice';
-import './quotescomponent.css';
+import './quotes.css';
 import { nanoid } from '@reduxjs/toolkit';
 
-export const QuotesComponent = () => {
+export const Quotes = () => {
   const quotes = useSelector(selectAllQuotes);
   const quotesStatus = useSelector(getQuotesStatus);
   const error = useSelector(getQuotesError);
